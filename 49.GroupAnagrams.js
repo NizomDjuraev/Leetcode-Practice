@@ -33,7 +33,7 @@ var groupAnagrams = function (strs) {
         }
         finArr.push(innerArr);
     }
-    return finArr;
+    return finArr; //return final array
 };
 
 let strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
